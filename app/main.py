@@ -61,5 +61,4 @@ class Battleship:
                 value.fire(row, column)
                 if value.is_drowned is True:
                     return "Sunk!"
-                else:
-                    return "Hit!"
+                return "Hit!"
